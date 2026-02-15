@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+
+# uv
+.venv/
+uv.lock
+
+# Contact files (user data)
+*.vcf
+*.vcard
+
+# Data directory
+data/
+
+# Filter configuration (private)
+filter_config.yaml
+*filter_config*.yaml
+
+# Output files
+duplicate_report.txt
+missing_contacts.vcf
+cleaned_contacts.vcf
+output/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo

@@ -1,0 +1,9 @@
+[project]
+name = "contact-sync-tool"
+version = "0.1.0"
+description = "Sync and clean up contacts when switching between Google/Android and iOS/iPhone"
+requires-python = ">=3.6"
+dependencies = [
+    "vobject>=0.9.6.1",
+    "pyyaml>=6.0",
+]
