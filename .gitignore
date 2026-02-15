@@ -8,6 +8,11 @@ venv/
 env/
 ENV/
 
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
 # uv
 .venv/
 uv.lock
